@@ -1,0 +1,27 @@
+@import './config/variables.scss';
+@import './config/layout.scss';
+@import './config/colors.scss';
+
+@import './utilities/spacing.scss';
+@import './utilities/mixin-card.scss';
+
+@import './base/fonts.scss';
+@import './base/global.scss';
+@import './base/typography.scss';
+@import './base/links.scss';
+
+// @import './components/_components.scss';
+@import './components/_components';
+@import './components/demo.scss';
+
+@import './pages/index.scss';
+@import './pages/single-page.scss';
+
+@import './hacks/add-product.scss';
+
+
+$bgc :silver;
+
+body{
+    background-color: $bgc;
+}
